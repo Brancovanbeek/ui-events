@@ -127,7 +127,7 @@ a:nth-of-type(2){
   50% { transform: translateX(-30px) }
   75% { transform: translateX(15px) }
   100% { transform: translateX(0px) }
- }
+}
 
 .rotate {
   transform: rotate(360deg); 

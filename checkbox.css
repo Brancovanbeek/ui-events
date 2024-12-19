@@ -1,0 +1,29 @@
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.checkbox-button {
+    display: inline-block;
+    background-color: #d9b5c3; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+  
+.checkbox-button input {
+    display: none;
+}
+  
+.checkbox-button input:checked{
+    background-color: #800020; 
+    color: #fff;
+    border-color: #800020;
+}
+
+  
